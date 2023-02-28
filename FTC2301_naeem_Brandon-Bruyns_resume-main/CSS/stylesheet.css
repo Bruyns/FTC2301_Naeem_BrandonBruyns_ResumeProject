@@ -6,3 +6,9 @@ h1{
     padding: 6px;
     text-align:center;
 }
+.headings{
+    color:#ffffff;
+    background-color: #da2020;
+    font-size:18px;
+    text-indent: 35%;
+}
