@@ -6,9 +6,38 @@ h1{
     padding: 6px;
     text-align:center;
 }
+h3{
+    padding-left: 50px;
+}
+#intro{
+    color:#da2020;
+    font-size: 15px;
+}
 .headings{
     color:#ffffff;
     background-color: #da2020;
     font-size:18px;
     text-indent: 35%;
 }
+p{
+    text-align:left;
+    font-size: 16px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 50px; padding-right: 50px;
+}
+img{
+    position:relative; left: 500px;
+    border-radius: 25%;
+    image-resolution: 30%;
+}
+li{
+    padding-left: 50px;
+    list-style:square; 
+}
+a{
+   color: #ff1111;
+}
+html{
+     background-color:#fadfdf ;
+     padding-block: 20px;
+    }
