@@ -1,39 +1,24 @@
 h1 {
-  font-size: 25px;
+  font-size: 28px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #ffffff;
   background-color: #da2020;
-  padding: 6px;
-  text-align: center;
+  padding: 6px 0px 6px 0px;
+  margin: 120px 5px 120px 0px;
+  position: relative;
+
 }
-h2{
-  font-size: 20px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: black;
-  padding: 6px;
-  text-align: left;
-}
-h3 {
-  font-size: 16px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: black;
-  padding-left: 50px;
-  text-align: left;
-}
-h4{
-  font-size: 16px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color:black;
-  padding-left: 6px;
-  text-align: left;
-}
+
 .headings {
   color: #ffffff;
   background-color: #da2020;
-  padding-left: 6px;
+  padding-left: 16px;
   background-position: center;
   font-size: 18px;
   text-indent: 35%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:black;
+  margin: 0px 0px 0px 0px;
 }
 p {
   text-align: left;
@@ -42,41 +27,32 @@ p {
   padding-left: 50px;
   padding-right: 50px;
 }
-img {
-  position: relative;
-  left: 120px;
-  border-radius: 100%;
-  image-resolution: 80%;
+
+.nav {
+  background-position: 10px;
+  background-color: white;
+  margin-left: 5px;
+  padding-left: 10px;
+  position: fixed;
+  display: flex;
+  padding-left: 15px;
+  left: 20px;
+  padding-bottom: 30px;
+  font-size: 20px;
+  text-indent: -10px;
+  padding-top: 15px;
+  justify-content: space-between;
+  
 }
-li {
-  align-items: normal 50px;
-  padding-left: 50px;
+.li {
+  background-color: white;
+  padding-left: 0px;
   list-style: square;
 }
 a {
   color: #ff1111;
 }
-html {
-  background-color: #fadfdf;
-  padding-block: 20px;
-  border-color: black;
-  border-width: 15px;
-  margin: 15px;
-}
-.header {
-  font-size: 40px;
-  background-color: #fadfdf;
-  margin: 0px 20px 0px 20px;
-  border-top: 20px;
-  border-right: 20px;
-  border-bottom: 20px;
-  border-left: 20px;
-  border-radius: 30px;
-  border-width: 5px;
-  border-color: rgb(0, 0, 0);
-  border-style:solid;
 
-}
 .content{
   border-style:solid;
   border-color: black;
@@ -84,7 +60,7 @@ html {
   border-spacing: 5px;
   border-radius: 30px;
   background-color:#fadfdf;
-  margin: 20px 20px 0px 20px;
+  margin: 20px 20px 0px 180px;
 
 }
 footer{
@@ -94,6 +70,63 @@ footer{
   border-spacing: 5px;
   border-radius: 30px;
   background-color:#fadfdf;
-  margin: 20px 20px 0px 20px;
+  margin: 20px 20px 0px 180px;
+  margin-left: 180px;
 
 }
+.header {
+  font-size: 20px;
+  background-color: #fadfdf;
+  margin: 0px 0px 0px 0px;
+  border-top: 20px;
+  border-right: 200px;
+  border-bottom: 20px;
+  border-left: 20px;
+  border-radius: 30px;
+  border-width: 5px;
+  border-color: rgb(0, 0, 0);
+  border-style:solid;
+  display: flex;
+  justify-content:space-between;
+  flex-direction: row-reverse;
+
+}
+.box1{
+  padding: 1px ;
+  border: 5px black;
+  text-align: left;
+  
+}
+.box2{
+  padding: 1px;
+  border: 5px black;
+
+}
+.box3{
+  padding: 25px;
+  border: 15px;
+  flex: 1;
+
+}
+.box4 img{
+  position: flex;
+  padding: 20px 100px 10px;
+  border: 5px black;
+  margin: 5px;
+  border-radius: 50%;
+  border-width:  1px; 
+  margin-right: 10px;
+}
+.leftside{
+  padding: 5px;
+  margin-left: 0px;
+}
+.rightside{
+  padding: 5px;
+  margin-left: 0px;
+}
+#edu{
+  background-color: pink;
+  margin: 30px 15px 15px 20px;
+}
+
