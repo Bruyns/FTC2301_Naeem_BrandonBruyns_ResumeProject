@@ -1,4 +1,4 @@
-html{
+html {
   background-color: #dd9a9a;
   z-index: -1;
 }
@@ -7,7 +7,10 @@ h1 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #ffffff;
   background-color: #da2020;
-  padding: 6px 0px 6px 0px;
+  border-radius: 80%;
+  border-width: 5px;
+  border-style: solid;
+  padding: 16px 10px 16px 10px;
   margin: 120px 5px 120px 0px;
   position: relative;
 }
