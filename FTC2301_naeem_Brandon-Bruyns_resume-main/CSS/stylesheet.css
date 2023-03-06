@@ -1,3 +1,7 @@
+html{
+  background-color: #dd9a9a;
+  z-index: -1;
+}
 h1 {
   font-size: 28px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -6,7 +10,6 @@ h1 {
   padding: 6px 0px 6px 0px;
   margin: 120px 5px 120px 0px;
   position: relative;
-
 }
 
 .headings {
@@ -16,8 +19,8 @@ h1 {
   background-position: center;
   font-size: 18px;
   text-indent: 35%;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color:black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: black;
   margin: 0px 0px 0px 0px;
 }
 p {
@@ -30,103 +33,133 @@ p {
 
 .nav {
   background-position: 10px;
-  background-color: white;
-  margin-left: 5px;
-  padding-left: 10px;
+  background-color: #fadfdf;
+  border: 1px 1px 1px 1px;
+  border-radius: 30px;
+  border-width: 5px;
+  border-color: black;
+  border-style: solid;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-block-start: auto;
+  padding-left: 1px;
   position: fixed;
-  display: flex;
-  padding-left: 15px;
-  left: 20px;
-  padding-bottom: 30px;
+  display: block;
+  width: 160px;
+  height: 418px;
+  padding-left: 6px;
+  left: 0px;
+  padding-bottom: 80px;
   font-size: 20px;
-  text-indent: -10px;
-  padding-top: 15px;
+  text-indent: 0px;
+  text-align: center;
+  padding-top: 30px;
+  margin-top: 420px;
+  top: 8px;
   justify-content: space-between;
-  
+  line-height: 50px;
+  z-index: 0;
 }
-.li {
-  background-color: white;
-  padding-left: 0px;
-  list-style: square;
+ul {
+  list-style-type: none;
+  padding: 5px 20px;
+  text-align: left;
+  z-index: 0;
 }
 a {
   color: #ff1111;
 }
 
-.content{
-  border-style:solid;
+.content {
+  border-style: solid;
   border-color: black;
   border-width: 5px;
   border-spacing: 5px;
   border-radius: 30px;
-  background-color:#fadfdf;
+  background-color: #fadfdf;
   margin: 20px 20px 0px 180px;
-
 }
-footer{
-  border-style:solid;
+footer {
+  border-style: solid;
   border-color: black;
   border-width: 5px;
   border-spacing: 5px;
   border-radius: 30px;
-  background-color:#fadfdf;
-  margin: 20px 20px 0px 180px;
-  margin-left: 180px;
-
+  background-color: #fadfdf;
+  margin: 20px 20px 20px 180px;
+  border: 10px 1px 1px 1px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 .header {
   font-size: 20px;
   background-color: #fadfdf;
   margin: 0px 0px 0px 0px;
-  border-top: 20px;
-  border-right: 200px;
+  border-top: 5px;
+  border-right: 5px;
   border-bottom: 20px;
-  border-left: 20px;
+  border-left: 5px;
   border-radius: 30px;
   border-width: 5px;
   border-color: rgb(0, 0, 0);
-  border-style:solid;
+  border-style: solid;
   display: flex;
-  justify-content:space-between;
+  justify-content: center;
   flex-direction: row-reverse;
-
+  align-content: center;
+  flex-wrap: wrap-reverse;
+  z-index: 3;
 }
-.box1{
-  padding: 1px ;
-  border: 5px black;
+.box1 {
+  padding: 20px 100px 20px 20px;
   text-align: left;
-  
-}
-.box2{
-  padding: 1px;
-  border: 5px black;
-
-}
-.box3{
-  padding: 25px;
-  border: 15px;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  flex: content;
   flex: 1;
-
+  right: auto;
 }
-.box4 img{
-  position: flex;
-  padding: 20px 100px 10px;
+.box2 {
+  padding: 20px 100px 20px 20px;
   border: 5px black;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex: content;
+  flex: 1;
+}
+.box3 {
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-bottom: 40px;
+  border: 50px;
+  flex: 50px;
+  text-align: center;
+  flex: 2;
+}
+.box4 img {
+  position: flex;
+  display: flex-start;
+  padding: 5px 5px 5px 5px;
+  border-style: double;
+  border: 10px;
+  color: #ff1111;
+  border: solid;
   margin: 5px;
   border-radius: 50%;
-  border-width:  1px; 
+  border-width: 5px;
   margin-right: 10px;
+  flex: 1;
+  z-index: 2;
 }
-.leftside{
+.leftside {
   padding: 5px;
   margin-left: 0px;
 }
-.rightside{
+.rightside {
   padding: 5px;
   margin-left: 0px;
 }
-#edu{
-  background-color: pink;
-  margin: 30px 15px 15px 20px;
+h1 {
+  color: black;
 }
-
