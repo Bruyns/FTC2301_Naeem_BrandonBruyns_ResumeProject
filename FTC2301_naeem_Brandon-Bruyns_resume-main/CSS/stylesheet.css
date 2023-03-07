@@ -44,23 +44,23 @@ p {
   border-style: solid;
   margin-left: 8px;
   margin-right: 8px;
-  margin-block-start: auto;
   padding-left: 1px;
   position: absolute;
-  display: block;
+  display: table-row-group;
+  justify-content: space-around;
   width: 160px;
   height: 668px;
   padding-left: 6px;
   left: 0px;
   padding-bottom: 840px;
   font-size: 20px;
+  flex-direction: row;
   text-indent: 0px;
   text-align: center;
   padding-top: 10px;
   margin-top: 440px;
-  top: 8px;
-  justify-content: space-around;
-  line-height: 30px;
+  top: 0px;
+  line-height: 50px;
   z-index: 0;
 }
 ul {
@@ -169,23 +169,51 @@ footer {
 h1 {
   color: black;
 }
-#Edu{
+.top{
   position: fixed;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 0px 0px 0px px ;
+  bottom: 70px;
 }
-#Qualification{
-  position:fixed;
-}
-#Experience{
+.Education{
   position: fixed;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 0px 0px 0px px ;
+  bottom: 40px;
 }
-#Skills{
-  position:fixed;
-}
-#toppage{
+.Qualification{
   position: fixed;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 0px 0px 0px px ;
+  bottom: 15px;
 }
-#bottompage{
-  position:fixed;
+.Experience{
+  position: fixed;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 0px 0px 0px px ;
+  bottom: 0px;
+  top: 425px;
+}
+.Skills{
+  position: fixed;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 0px 0px 0px px ;
+  bottom: 20px;
+  top: 455px;
+}
+
+.bottom{
+  position: fixed;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 0px 0px 0px px ;
+  bottom: 20px;
+  top: 485px;
 }
 input{
   width: 200px;
@@ -199,4 +227,7 @@ textarea{
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+}
+select{
+  width: 250px;
 }
