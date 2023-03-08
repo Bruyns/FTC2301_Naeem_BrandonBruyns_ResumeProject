@@ -2,41 +2,45 @@
 <html>
   <head>
       <title>Brandon Bruyns resume</title>
-      <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+      <link rel="stylesheet" type="text/css" href="CSS/stylesheet.css">
   </head>
   <body>
+    <div class="coverpage">
+      <picture>
+        <source media="max-width:425px" srcset="images\brandon-slack-pfp-small.jpg">
+        <source media="max-width:768px" srcset="images\formal attire medium.jpg">
+        <source media="max-width:1440px" srcset="images\formal attire large.jpg">
+        <img src="images/formal attire large.jpg" alt="profile picture">
+      </picture>
+    </div>
     <div class="header"> 
     <header>
-      <div>
-        <picture>
-<sourcemedia="max-width:"
-        </picture>
-      </div>
       <div class="box1">
     <h2>CodeSpace Academy</h2>
   <p><h4 class="right">Imagine. Learn. Create.</h4></p>
   </div>
  <div class="box2"><h3>Find us online:</h3>
   <ul>
-      <li><h3><a href="https://www.codespace.co.za/">codespace</a></h3></li>
+      <li><h3><a href="https://www.codespace.co.za/">codespace.co.za</a></h3></li>
   </ul>
  </div>
   </header>
    <div class="box3">
     <h1>Brandon Garth Bruyns</h1>
       <h3>An introductory personal statement</h3>
+  </div>
 </div>
     <div class="content">
      <aside>
     <nav>
       <div class="nav">
         <ul>
-            <li><div id="toppage"><a href="#top">go to top</a></div></li>
-            <li><div id="Edu"><a href="#Education">Education</a></div></li>
-            <li><div id="Qualification"></div><a href="#Qualification">Qualification</a></li>
-            <li><div id="Experience"></div><a href="#Experience">Experience</a></li>
-            <li><div id="Skill"></div><a href="#Skills">Skills</a></li>
-            <li><div id="bottompage"><a href="#bottom">go to bottom</a></div></li>
+            <li><div class="top"><a href="#top">go to top</a></div></li>
+            <li><div class="Education"><a href="#Education">Education</a></div></li>
+            <li><div class="Qualification"><a href="#Qualification">Qualification</a></li>
+            <li><div class="Experience"><a href="#Experience">Experience</a></div></li>
+            <li><div class="Skills"><a href="#Skills">Skills</a></li>
+            <li><div class="bottom"><a href="#bottom">go to bottom</a></div></li>
         </ul>
       </div>
       </nav>
@@ -111,7 +115,6 @@
     </ul>
   </div>
 </div>
-    </body>
   </section>
 
     <footer>
@@ -122,6 +125,27 @@
       <li><a href="https://www.facebook.com/solo.maniac8/"><h3>Facebook/brandon-bruyns</h3></a></li>
       <li><a href="brandon.bruyns7@gmail.com"><h3>Gmail</h3></a></li>
     </ul>
+    <form action="https://formsubmit.co/brandon.bruyns7@gmail.com" method="post">
+    <h3>please fill in this form:</h3>
+    <label for="name">name (required)</label>
+    <input type="text" id="name" name="user_name" required>
+    <label for="surname">surname (required)</label>
+    <input type="text" id="surname" surname="user_surname" required>
+    <label for="email_address">email address (required)</label>
+    <input type="email" id="email" email="email_address" required >
+    <h3>reason for submission (required):</h3>
+    <select user="user_experience" placeholder="user_experience" required>
+        <option value="great">great</option>
+        <option value="decent">decent</option>
+        <option value="fine">fine</option>
+        <option value="bad">bad</option>
+        <option value="terrible">terrible</option>
+    </select>
+    <h3 class="submit">please give us your user Experience (optional):</h3>
+    <textarea name="user_message" id="msg" optional></textarea>
+
+    <input type="submit" value="confirm"></input>
+</form>
   </footer>
   </body>
 </html>
