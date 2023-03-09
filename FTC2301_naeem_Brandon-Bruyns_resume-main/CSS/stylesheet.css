@@ -7,14 +7,8 @@ html {
   margin: 2px 2px 2px 2px;
   size-adjust: auto;
   width: auto;
-}
-.leftside {
-  padding: 15px;
-  margin-left: 0px;
-}
-.rightside {
-  padding: 5px;
-  margin-left: 0px;
+  background-image: url(/FTC2301_naeem_Brandon-Bruyns_resume-main/images/5640557.jpg);
+  background-repeat: repeat-y;
 }
 h1 {
   color: black;
@@ -64,7 +58,7 @@ h5{
 .header {
   font-size: 20px;
   background-color: #fadfdf;
-  margin: 0px 0px 0px 160px;
+  margin: 2px 2px 2px 160px;
   padding: 5px 0px 30px 0px;
   height: 300px;
   border: 5px 5px 5px 5px;
@@ -99,10 +93,10 @@ h5{
   line-height: 1px;
 }
 .box3 {
-  padding-left: 180px;
-  padding-right: 120px;
-  padding-bottom: 40px;
-  border: 50px;
+  margin: 1px 1px 1px 1px;
+  border: 2px 2px 2px 2px;
+  padding: 10px 10px 10px 10px;
+  box-sizing: content-box;
   flex: 50px;
   text-align: center;
   flex: 2;
@@ -118,17 +112,17 @@ img{
 }
 .banner{
   position: absolute;
-  margin: 1px 1px 1px 1px;
+  margin: 1px 1px 1px 180px;
   border: 5px 5px 5px 5px;
   padding: 0px 0px 0px 0px;
-  top: 540px;
+  top: 680px;
   right: 50px;
   font-size: 75px;
   font-style: italic;
 }
 .coverpage{
   margin: 5px 5px 30px 160px;
-  padding: 1px 1px 300px 1px;
+  padding: 1px 1px 200px 1px;
   border: 5px 5px 5px 5px;
   border-style: solid;
   border-width: 2px;
@@ -161,12 +155,11 @@ p {
                               ------------------------*/
 .nav {
   border: 5px 5px 5px 1px;
-  margin-left: 2px;
-  margin-right: 8px;
+  margin: 1px 8px 1px 2px;
   position: absolute;
   display: flex;
   width: 160px;
-  height: auto;
+  height:  100%;
   padding-left: 6px;
   left: 0px;
   padding: auto;
@@ -174,10 +167,10 @@ p {
   flex-direction: row;
   text-indent: 0px;
   text-align: center;
-  margin-top: 335px;
   top: 0px;
   line-height: 50px;
   z-index: 0;
+
 }
 .top {
   position: fixed;
@@ -185,9 +178,9 @@ p {
   padding: 0px 0px 0px 0px;
   bottom: 460px;
   text-align: center;
-  width: 150px;
+  width: 165px;
   height: 45px;
-  left: 18px;
+  left: 1px;
   border-width: 2px;
   border-style: solid;
   border-color: black;
@@ -198,9 +191,9 @@ p {
   padding: 0px 0px 0px 0px;
   bottom: 410px;
   text-align: center;
-  width: 150px;
+  width: 165px;
   height: 45px;
-  left: 18px;
+  left: 1px;
   border-width: 2px;
   border-style: solid;
   border-color: black;
@@ -211,9 +204,9 @@ p {
   padding: 0px 0px 0px 0px;
   bottom: 360px;
   text-align: center;
-  width: 150px;
+  width: 165px;
   height: 45px;
-  left: 18px;
+  left: 1px;
   border-width: 2px;
   border-style: solid;
   border-color: black;
@@ -224,9 +217,9 @@ p {
   padding: 0px 0px 0px 0px;
   bottom: 310px;
   text-align: center;
-  width: 150px;
+  width: 165px;
   height: 45px;
-  left: 18px;
+  left: 1px;
   border-width: 2px;
   border-style: solid;
   border-color: black;
@@ -237,9 +230,9 @@ p {
   padding: 0px 0px 0px 0px;
   bottom: 260px;
   text-align: center;
-  width: 150px;
+  width: 165px;
   height: 45px;
-  left: 18px;
+  left: 1px;
   border-width: 2px;
   border-style: solid;
   border-color: black;
@@ -250,9 +243,9 @@ p {
   padding: 0px 0px 0px 0px;
   bottom: 210px;
   text-align: center;
-  width: 150px;
+  width: 165px;
   height: 45px;
-  left: 18px;
+  left: 1px;
   border-width: 2px;
   border-style: solid;
   border-color: black;
