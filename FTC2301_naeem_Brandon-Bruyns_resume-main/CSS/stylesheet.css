@@ -35,7 +35,7 @@ h1 {
   margin: 20px 5px 30px 0px;
   position: relative;
 }
-h5{
+h5 {
   margin: 30px 5px 30px 0px;
   padding: 10px 10px 10px 10px;
   position: relative;
@@ -101,7 +101,7 @@ h5{
   text-align: center;
   flex: 2;
 }
-img{
+img {
   margin: 10px 0px 0px 0px;
   border: 1px 1px 1px 1px;
   padding: 10px 10px 10px 10px;
@@ -110,17 +110,17 @@ img{
   left: 180px;
   position: relative;
 }
-.banner{
+.banner {
   position: absolute;
   margin: 1px 1px 1px 180px;
   border: 5px 5px 5px 5px;
   padding: 0px 0px 0px 0px;
-  top: 680px;
+  top: 550px;
   right: 50px;
   font-size: 75px;
   font-style: italic;
 }
-.coverpage{
+.coverpage {
   margin: 5px 5px 30px 160px;
   padding: 1px 1px 200px 1px;
   border: 5px 5px 5px 5px;
@@ -159,7 +159,7 @@ p {
   position: absolute;
   display: flex;
   width: 160px;
-  height:  100%;
+  height: 100%;
   padding-left: 6px;
   left: 0px;
   padding: auto;
@@ -170,7 +170,6 @@ p {
   top: 0px;
   line-height: 50px;
   z-index: 0;
-
 }
 .top {
   position: fixed;
@@ -285,4 +284,39 @@ textarea {
 }
 select {
   width: 250px;
+}
+/*---------------------
+                              media queries
+                              ------------------------*/
+ /*top of page*/ 
+/*mobile*/
+@media screen and (max-width: 450px) {
+  .banner {
+  }
+  .header {
+  }
+}
+/*tablet*/
+@media screen and (max-width: 768px) {
+  .banner {
+  }
+  .header {
+  }
+}
+/*laptop*/
+@media screen and (max-width: 1240px) {
+  .banner {
+  }
+  .header {
+  }
+}
+
+/*middle pf page*/
+.headings {
+}
+/*bottom of page*/
+.footer {
+}
+/*navbar-aside-leftside*/
+.nav {
 }
