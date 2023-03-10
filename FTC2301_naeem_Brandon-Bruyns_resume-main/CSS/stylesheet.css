@@ -57,9 +57,10 @@ h5 {
 }
 .header {
   font-size: 20px;
+  position: relative;
   background-color: #fadfdf;
   margin: 2px 2px 2px 160px;
-  padding: 5px 0px 30px 0px;
+  padding: 5px 5px 5px 5px;
   height: 300px;
   border: 5px 5px 5px 5px;
   border-radius: 30px;
@@ -67,39 +68,35 @@ h5 {
   border-color: rgb(0, 0, 0);
   border-style: solid;
   display: flex;
-  justify-content: space-between;
-  flex-direction: row-reverse;
-  align-content: center;
-  flex-wrap: wrap-reverse;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: space-evenly ;
+  flex-direction: row;
   z-index: 3;
 }
 .box1 {
-  padding: 30px 100px 20px 20px;
+  padding: 30px 20px 20px 20px;
   text-align: left;
-  flex-direction: column;
-  flex-wrap: wrap;
-  flex: content;
-  flex: 1;
-  right: auto;
+  width: 350px;
+  
 }
 .box2 {
-  display: flex;
   border: 1px 1px 1px 1px;
   padding: 20px 10px 5px 20px;
   border: 5px black;
-  flex-direction: column;
-  flex-wrap: wrap;
   bottom: 0px;
+  width: 350px;
   line-height: 1px;
 }
 .box3 {
   margin: 1px 1px 1px 1px;
   border: 2px 2px 2px 2px;
   padding: 10px 10px 10px 10px;
-  box-sizing: content-box;
-  flex: 50px;
   text-align: center;
-  flex: 2;
+  justify-content: flex-end;
+  width: 440px;
+  font-size: 25px;
+  line-height: 1px;
 }
 img {
   margin: 10px 0px 0px 0px;
@@ -268,12 +265,18 @@ footer {
   flex-wrap: wrap;
   flex-direction: column;
 }
+form{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+}
 input {
   width: 200px;
   height: 30px;
 }
 textarea {
-  width: 1000px;
+  width: 800px;
   height: 150px;
   size-adjust: auto;
 }
@@ -288,35 +291,322 @@ select {
 /*---------------------
                               media queries
                               ------------------------*/
- /*top of page*/ 
 /*mobile*/
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 425px) {
   .banner {
+    font-size: 5px;
+    top: 10px;
+    bottom: 50px;
   }
   .header {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: small;
+    flex-direction: row;
+    align-content: space-evenly;
+    justify-content: center;
+    font-size: 50%;
+  }
+  .box1{
+    padding: 2px 2px 2px 2px;
+  }
+  .box2{
+    padding: 2px 2px 2px 2px;
+  }
+  .box3{
+    padding: 2px 2px 2px 2px;
+    align-items: stretch;
+    font-size: medium;
+    text-align: justify;
+    }
+  img{
+    position: relative;
+    left: 10px;
+    width: 40vw;
+    height: 40vw;
+    border-width: 1px;
+    border-style: solid;
+    color: black;
+  }
+  .content{
+    padding: 1px 2px 1px 5px;
+    font-size: 12px;
+  }
+  p{
+  padding: 0px 0px 0px 15px;
+  }
+  .top {
+    position: fixed;
+    top: 100px;
+  }
+  .Education {
+    position: fixed;
+    top: 150px;
+  }
+  .Qualification {
+    position: fixed;
+    top: 200px;
+  }
+  .Experience {
+    position: fixed;
+    top: 250px;
+  }
+  .Skills {
+    position: fixed;
+    top: 300px;
+  }
+  .bottom {
+    position: fixed;
+    top: 350px;
+  }
+  footer {
+    border-style: solid;
+    border-color: black;
+    font-size: 12px;
+    border-width: 5px;
+    border-spacing: 5px;
+    border-radius: 30px;
+    background-color: #fadfdf;
+    margin: 2px 2px 2px 2x;
+    border: 10px 1px 1px 1px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  input {
+    width: 180px;
+    height: 30px;
+  }
+  textarea {
+    width: 180px;
+    height: 150px;
+  }
+  .submit {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  select {
+    width: 80px;
   }
 }
 /*tablet*/
 @media screen and (max-width: 768px) {
   .banner {
+    font-size: 50px;
+    top: 440px;
+    bottom: 50px;
   }
   .header {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: small;
+    flex-direction: row;
+    align-content: space-evenly;
+    justify-content: center;
+    font-size: 90%;
+  }
+  .box1{
+    padding: 2px 2px 2px 2px;
+  }
+  .box2{
+    padding: 2px 2px 2px 2px;
+  }
+  .box3{
+    padding: 2px 2px 2px 2px;
+    align-items: stretch;
+    font-size: medium;
+    text-align: justify;
+    }
+  img{
+    position: relative;
+    left: 10px;
+    width: 50vw;
+    height: 50vw;
+    border-width: 1px;
+    border-style: dotted;
+    color: black;
+  }
+  .content{
+    padding: 1px 2px 1px 15px;
+    font-size: 14px;
+  }
+  p{
+  padding: 0px 0px 0px 14px;
+  }
+  .top {
+    position: fixed;
+    top: 100px;
+  }
+  .Education {
+    position: fixed;
+    top: 150px;
+  }
+  .Qualification {
+    position: fixed;
+    top: 200px;
+  }
+  .Experience {
+    position: fixed;
+    top: 250px;
+  }
+  .Skills {
+    position: fixed;
+    top: 300px;
+  }
+  .bottom {
+    position: fixed;
+    top: 350px;
+  }
+  footer {
+    border-style: solid;
+    border-color: black;
+    font-size: 20px;
+    border-width: 5px;
+    border-spacing: 5px;
+    border-radius: 30px;
+    background-color: #fadfdf;
+    margin: 2px 2px 2px 2x;
+    border: 10px 1px 1px 1px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+  }
+  input {
+    align-items: center;
+    width: 300px;
+    height: 30px;
+  }
+  textarea {
+    width: 400px;
+    height: 150px;
+
+  }
+  .submit {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  select {
+    width: 80px;
   }
 }
 /*laptop*/
-@media screen and (max-width: 1240px) {
+@media screen and (max-width: 1024px) {
+  .coverpage{
+  padding: 0px 0px 70px 0px
+  }
   .banner {
+    font-size: 60px;
+    top: 490px;
+    bottom: 50px;
   }
   .header {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: small;
+    flex-direction: row;
+    align-content: space-evenly;
+    justify-content: center;
+    font-size: 100%;
+  }
+  .box1{
+    padding: 2px 2px 2px 2px;
+  }
+  .box2{
+    padding: 2px 2px 2px 2px;
+  }
+  .box3{
+    padding: 2px 2px 2px 2px;
+    align-items: stretch;
+    font-size: medium;
+    text-align: justify;
+    font-size: 25px;
+    }
+  img{
+    position: relative;
+    left: 200px;
+    width: 43vw;
+    height: 43vw;
+    border-width: 5px;
+    border-style: double;
+    color: black;
+  }
+  .content{
+    padding: 1px 2px 1px 10px;
+    font-size: 18px;
+  }
+  p{
+  padding: 0px 0px 0px 10px;
+  font-size: 17px;
+  }
+  .top {
+    position: fixed;
+    top: 100px;
+  }
+  .Education {
+    position: fixed;
+    top: 150px;
+  }
+  .Qualification {
+    position: fixed;
+    top: 200px;
+  }
+  .Experience {
+    position: fixed;
+    top: 250px;
+  }
+  .Skills {
+    position: fixed;
+    top: 300px;
+  }
+  .bottom {
+    position: fixed;
+    top: 350px;
+  }
+  footer {
+    border-style: solid;
+    border-color: black;
+    font-size: 20px;
+    border-width: 5px;
+    border-spacing: 5px;
+    border-radius: 30px;
+    background-color: #fadfdf;
+    margin: 2px 2px 2px 2x;
+    border: 10px 1px 1px 1px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+  }
+  input {
+    align-items: center;
+    width: 400px;
+    height: 30px;
+  }
+  textarea {
+    width: 600px;
+    height: 150px;
+
+  }
+  .submit {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  select {
+    width: 180px;
   }
 }
-
-/*middle pf page*/
-.headings {
-}
-/*bottom of page*/
-.footer {
-}
-/*navbar-aside-leftside*/
-.nav {
-}
+/*la
